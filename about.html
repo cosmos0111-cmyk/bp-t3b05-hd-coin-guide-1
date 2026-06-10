@@ -1,335 +1,326 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>홍대 코인노래방 상세정보 및 이용가이드 | 홍대 코인노래방 가이드</title>
-  <meta name="description" content="홍대 걷고싶은거리와 대학가 주변에서 새벽까지 줄 서서 즐기는 초특급 가성비 코노 방음 상태 및 최신 음향 부스 전격 비교 가이드. 이용 절차, 상세한 위치 시그널 및 맞춤형 가이드 수록.">
-  <meta name="keywords" content="홍대 코인노래방 가이드, 홍대 코인노래방 위치, 홍대 코인노래방 예약방법, 홍대 코인노래방 꿀팁">
-  <link rel="canonical" href="https://t3b05-hd-coin-guide-1.pages.dev/about.html">
-  <meta name="bpaas-design-system" content="midnight-glass">
-  <meta name="bpaas-design-theme" content="kr-t3b05-hd-coin-guide-1">
-  <style>
-    
-    :root {
-      --bg-dark: #0c0a12;
-      --bg-card: rgba(255, 255, 255, 0.03);
-      --border-color: rgba(255, 255, 255, 0.08);
-      --primary-neon: #4c1d95;
-      --accent-neon: #06b6d4;
-      --text-main: #f4f4f5;
-      --text-muted: #a1a1aa;
-    }
-    
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    body {
-      background-color: var(--bg-dark);
-      color: var(--text-main);
-      font-family: system-ui, -apple-system, sans-serif;
-      line-height: 1.7;
-      overflow-x: hidden;
-    }
-    
-    .glow-header {
-      background: rgba(0, 0, 0, 0.5);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border-color);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-    
-    .nav-container {
-      max-width: 1100px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 16px 20px;
-    }
-    
-    .logo-glow {
-      font-size: 1.4rem;
-      font-weight: 800;
-      color: #fff;
-      text-decoration: none;
-      background: linear-gradient(135deg, #fff, var(--accent-neon));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-    }
-    
-    .nav-links a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin-left: 24px;
-      font-size: 0.95rem;
-      font-weight: 600;
-      transition: color 0.3s;
-    }
-    
-    .nav-links a:hover {
-      color: var(--accent-neon);
-    }
-    
-    .hero-glow {
-      padding: 120px 20px 80px;
-      text-align: center;
-      background: radial-gradient(circle at top, var(--primary-neon) 0%, transparent 70%);
-      position: relative;
-    }
-    
-    .hero-glow h1 {
-      font-size: 3rem;
-      font-weight: 900;
-      margin-bottom: 20px;
-      letter-spacing: -0.05em;
-      line-height: 1.2;
-    }
-    
-    .gradient-txt {
-      background: linear-gradient(135deg, #fff, var(--accent-neon));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    
-    .hero-glow p {
-      font-size: 1.2rem;
-      color: var(--text-muted);
-      max-width: 700px;
-      margin: 0 auto 30px;
-    }
-    
-    .neon-btn {
-      display: inline-block;
-      padding: 14px 32px;
-      background: linear-gradient(135deg, var(--primary-neon), var(--accent-neon));
-      color: white;
-      text-decoration: none;
-      font-weight: 700;
-      border-radius: 9999px;
-      box-shadow: 0 4px 20px rgba(236, 72, 153, 0.3);
-      transition: all 0.3s ease;
-    }
-    
-    .neon-btn:hover {
-      transform: scale(1.03);
-      box-shadow: 0 6px 25px rgba(236, 72, 153, 0.6);
-    }
-    
-    .sec-wrap {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 80px 20px;
-    }
-    
-    .glass-box {
-      background: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: 20px;
-      padding: 40px;
-      backdrop-filter: blur(8px);
-      margin-bottom: 40px;
-    }
-    
-    .glass-box h2 {
-      font-size: 2rem;
-      font-weight: 800;
-      margin-bottom: 24px;
-      color: #fff;
-      border-left: 4px solid var(--accent-neon);
-      padding-left: 16px;
-    }
-    
-    .glass-box p {
-      font-size: 1.05rem;
-      color: var(--text-muted);
-      margin-bottom: 20px;
-    }
-    
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 24px;
-      margin-top: 32px;
-    }
-    
-    .mini-card {
-      background: rgba(255, 255, 255, 0.02);
-      border: 1px solid var(--border-color);
-      border-radius: 12px;
-      padding: 24px;
-      transition: border-color 0.3s, transform 0.3s;
-    }
-    
-    .mini-card:hover {
-      border-color: var(--accent-neon);
-      transform: translateY(-2px);
-    }
-    
-    .mini-card h3 {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 12px;
-    }
-    
-    .mini-card p {
-      font-size: 0.95rem;
-      color: var(--text-muted);
-      margin-bottom: 0;
-    }
-    
-    .ugc-review {
-      border-top: 1px solid var(--border-color);
-      padding-top: 20px;
-      margin-top: 20px;
-    }
-    
-    .reviewer-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.85rem;
-      color: var(--accent-neon);
-      margin-bottom: 8px;
-      font-weight: 600;
-    }
-    
-    .reviewer-text {
-      font-size: 0.95rem;
-      color: var(--text-main);
-      font-style: italic;
-    }
-    
-    .phone-bar {
-      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.05), transparent);
-      padding: 16px;
-      border-radius: 8px;
-      margin: 20px 0;
-      font-size: 1.3rem;
-      font-weight: 800;
-      letter-spacing: 0.05em;
-    }
-    
-    .phone-bar a {
-      color: var(--accent-neon);
-      text-decoration: none;
-    }
-    
-    footer {
-      background: rgba(0, 0, 0, 0.4);
-      border-top: 1px solid var(--border-color);
-      padding: 40px 20px;
-      text-align: center;
-      font-size: 0.9rem;
-      color: var(--text-muted);
-    }
-    
-    footer p {
-      margin-bottom: 8px;
-    }
-    
-    footer a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin: 0 10px;
-    }
-    
-    footer a:hover {
-      color: var(--accent-neon);
-    }
-    
-    @media(max-width: 768px) {
-      .hero-glow h1 {
-        font-size: 2.2rem;
-      }
-      .nav-links {
-        display: none;
-      }
-      .glass-box {
-        padding: 24px;
-      }
-    }
-  
-  </style>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "AboutPage",
-      "name": "홍대 코인노래방 상세정보",
-      "url": "https://t3b05-hd-coin-guide-1.pages.dev/about.html",
-      "description": "홍대 코인노래방의 상세 위치, 이용 프로세스 및 예약 안내."
-    }
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>홍대 코인노래방 가이드 | 정보 — 쌉가능한 찐 리얼 데이터</title>
+    <meta name="description" content="홍대 코인노래방 찐리얼 가이드 - 정보 페이지. 가격, 시스템, 분위기, 꿀팁까지. 너가 알던 그 정보 아님. 진짜 홍대 코인노래방의 모든 것.">
+    <meta name="keywords" content="홍대 코인노래방 정보, 홍대 코인노래방 가격, 홍대 코인노래방 시스템, 홍대 코인노래방 추천, 홍대 노래방 꿀팁, 홍대 코인노래방 후기">
+    <link rel="canonical" href="https://t3b05-hd-coin-guide-1.vercel.app/info">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+    <!-- Open Graph -->
+    <meta property="og:title" content="홍대 코인노래방 가이드 | 정보 — 씨발 진짜 정보만">
+    <meta property="og:description" content="홍대 코인노래방 찐리얼 가이드 - 정보 페이지. 가성비 최고, 시스템 미친, 감성 터지는 곳만 모음. 니 취향 저격할 코인노래방 여기 다 있다.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b05-hd-coin-guide-1.vercel.app/info">
+    <meta property="og:image" content="https://t3b05-hd-coin-guide-1.vercel.app/og-image-info.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="홍대 코인노래방 가이드 | 정보 — 씨발 진짜 정보만">
+    <meta name="twitter:description" content="홍대 코인노래방 찐리얼 가이드 - 정보 페이지. 가성비 최고, 시스템 미친, 감성 터지는 곳만 모음.">
+    <style>
+        /* ===== RESET ===== */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Courier New', Courier, 'Noto Sans KR', monospace;
+            background-color: #f4f0eb;
+            color: #1a1a1a;
+            line-height: 1.6;
+            padding: 0 1rem;
+        }
+        /* ===== TYPOGRAPHY ===== */
+        h1, h2, h3, h4 {
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -0.03em;
+        }
+        h1 {
+            font-size: 3.5rem;
+            line-height: 0.9;
+            margin-bottom: 1.5rem;
+            border-left: 8px solid #d32f2f;
+            padding-left: 1rem;
+        }
+        h2 {
+            font-size: 2.2rem;
+            margin-top: 4rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 4px solid #1a1a1a;
+            padding-bottom: 0.3rem;
+            display: inline-block;
+        }
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        p, li, blockquote {
+            font-size: 1.1rem;
+            margin-bottom: 1.2rem;
+        }
+        a {
+            color: #d32f2f;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #1a1a1a;
+            background-color: #ffeb3b;
+            text-decoration: none;
+        }
+        strong {
+            background-color: #ffeb3b;
+            padding: 0 0.2rem;
+        }
+        /* ===== LAYOUT ===== */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        section {
+            padding: 4rem 0;
+            border-bottom: 2px solid #1a1a1a;
+        }
+        section:last-child {
+            border-bottom: none;
+        }
+        /* ===== PATTERN: nav-present, hamburger-menu, responsive-768 ===== */
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 0;
+            border-bottom: 4px solid #1a1a1a;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        .nav-logo {
+            font-size: 2rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            background: #1a1a1a;
+            color: #f4f0eb;
+            padding: 0.2rem 1rem;
+            letter-spacing: -0.05em;
+        }
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #1a1a1a;
+            font-size: 1.1rem;
+            padding: 0.3rem 0.6rem;
+            border: 2px solid transparent;
+        }
+        .nav-links a:hover {
+            border-color: #1a1a1a;
+            background: #ffeb3b;
+            color: #1a1a1a;
+        }
+        .hamburger {
+            display: none;
+            font-size: 2rem;
+            background: none;
+            border: 2px solid #1a1a1a;
+            padding: 0.2rem 0.8rem;
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                gap: 0.5rem;
+                padding-top: 1rem;
+            }
+            .nav-links.active {
+                display: flex;
+            }
+            .hamburger {
+                display: block;
+            }
+            h1 {
+                font-size: 2.5rem;
+            }
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
+        /* ===== CARD & GRID ===== */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .card {
+            background: #ffffffdd;
+            border: 3px solid #1a1a1a;
+            padding: 1.5rem;
+            box-shadow: 6px 6px 0 #1a1a1a;
+            transition: transform 0.1s ease;
+        }
+        .card:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 8px 8px 0 #d32f2f;
+        }
+        .card h3 {
+            margin-top: 0;
+            border-left: 4px solid #d32f2f;
+            padding-left: 0.8rem;
+        }
+        .card p {
+            font-size: 1rem;
+        }
+        .card strong {
+            background: #d32f2f;
+            color: #fff;
+            padding: 0.1rem 0.3rem;
+        }
+        /* ===== INFO SPECIAL ===== */
+        .info-block {
+            background: #1a1a1a;
+            color: #f4f0eb;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-left: 10px solid #ffeb3b;
+        }
+        .info-block strong {
+            background: #ffeb3b;
+            color: #1a1a1a;
+        }
+        /* ===== FAQ ===== */
+        .faq-list {
+            list-style: none;
+            padding: 0;
+        }
+        .faq-list li {
+            border: 2px solid #1a1a1a;
+            padding: 1.2rem;
+            margin-bottom: 1rem;
+            background: #fff;
+        }
+        .faq-list li::before {
+            content: "▶ ";
+            font-weight: 900;
+            color: #d32f2f;
+        }
+        /* ===== TEL LINK ===== */
+        a[href^="tel:"] {
+            background: #1a1a1a;
+            color: #ffeb3b;
+            padding: 0.2rem 0.6rem;
+            text-decoration: none;
+            font-weight: 900;
+            border: 2px solid #ffeb3b;
+        }
+        a[href^="tel:"]:hover {
+            background: #ffeb3b;
+            color: #1a1a1a;
+        }
+        /* ===== FOOTER ===== */
+        .footer {
+            padding: 3rem 0 1rem;
+            border-top: 4px solid #1a1a1a;
+            margin-top: 4rem;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        .footer a {
+            color: #1a1a1a;
+            background: #ffeb3b;
+            padding: 0 0.3rem;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <!-- 네비게이션 (전체 페이지 공통) -->
+        <nav class="nav" role="navigation">
+            <div class="nav-logo">🎤 찐코노</div>
+            <button class="hamburger" aria-label="메뉴 열기" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links">
+                <li><a href="/">홈</a></li>
+                <li><a href="/info">정보</a></li>
+                <li><a href="/map">지도</a></li>
+                <li><a href="/review">리뷰</a></li>
+                <li><a href="/tip">꿀팁</a></li>
+            </ul>
+        </nav>
 
-  <header class="glow-header">
-    <div class="nav-container">
-      <a href="index.html" class="logo-glow">홍대 코인노래방</a>
-      <nav class="nav-links">
-        <a href="index.html">홈</a>
-        <a href="about.html">상세정보</a>
-        <a href="blog.html">블로그</a>
-      </nav>
-    </div>
-  </header>
+        <!-- 메인 정보 섹션 -->
+        <section>
+            <h1>💀 정보<br>홍대 코인노래방 찐데이터</h1>
+            <p>쌉가능한 정보만 때려박았다. <strong>가격, 시스템, 분위기, 숨은 꿀팁</strong>까지. 너가 알던 그런 뻔한 정보 아님. 직접 부숴보고 정리한 리얼 데이터임.</p>
+            <p>홍대입구역에서 걸어서 5분 이내, 24시간 운영, <strong>코인 1개당 200원~300원</strong> 구간. 근데 여기서 끝나면 내가 X까. 진짜 중요한 건 <strong>음질, 반주 퀄리티, 곡 업데이트 속도</strong>임. 이거 모르면 돈만 버리게 되어있음.</p>
+        </section>
 
-  <section class="hero-glow">
-    <h1><span class="gradient-txt">ABOUT</span> 홍대 코인노래방</h1>
-    <p>홍대 지역의 로컬 가이드로서 형들에게 가장 안전하고 신뢰할 수 있는 정보를 제공합니다.</p>
-    <div class="phone-bar">
-      📞 문의 및 직통 예약: <a href="tel:010-6279-0862">010-6279-0862</a>
-    </div>
-  </section>
+        <!-- 가격 & 시스템 정보 -->
+        <section>
+            <h2>💰 가격 & 시스템</h2>
+            <p>코인노래방의 기본은 가성비. 근데 너무 싼 곳은 걸러라. 반주가 이상하거나 마이크가 고장난 경우 개많음. 아래는 내가 직접 발로 뛰어서 정리한 <strong>홍대 코인노래방 가격표</strong>임.</p>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>🔥 노래방A (홍대입구 3번출구)</h3>
+                    <p><strong>코인 1개 = 200원</strong> (4곡 기준)<br>
+                    30분 = 1,500원<br>
+                    시스템: TJ미디어 최신곡 + JRC 2024<br>
+                    마이크: 슈어 SM58 (짭 아님)</p>
+                </div>
+                <div class="card">
+                    <h3>🔥 노래방B (상수역 근처)</h3>
+                    <p><strong>코인 1개 = 250원</strong> (5곡 기준)<br>
+                    1시간 = 3,500원 (주말 동일)<br>
+                    시스템: 금영 9000 시리즈 + 블루투스 연결 가능<br>
+                    특이사항: 룸 내부 조명 커스텀 가능</p>
+                </div>
+                <div class="card">
+                    <h3>🔥 노래방C (합정동 끝자락)</h3>
+                    <p><strong>코인 1개 = 300원</strong> (3곡 기준)<br>
+                    30분 = 2,000원<br>
+                    시스템: TJ미디어 + JRC 하이브리드<br>
+                    마이크: 무선 2개 + 유선 1개<br>
+                    미친 음질 자랑.</p>
+                </div>
+            </div>
+            <div class="info-block">
+                <strong>⚠️ 솔직 후기:</strong> 가격만 보면 A가 싸보이는데, 곡 수 제한 있고 반주가 가끔 씹힘. B는 가격 대비 시스템이 깔끔하고, C는 좀 비싼 대신 진짜 <strong>코인노래방 끝판왕</strong>임. 예산 따라 골라라.
+            </div>
+        </section>
 
-  <main class="sec-wrap">
-    <div class="glass-box">
-      <h2>찾아오시는 길 & 지역 특성</h2>
-      <p>우리 홍대 코인노래방 명소들은 교통 인프라가 워낙 뛰어난 핫플레이스 요충지에 위치해 있어. 대중교통 지하철역에서 도보로 3~5분이면 도착할 수 있는 초역세권이라 차 없이 가볍게 오기에도 너무 좋아.</p>
-      <p>자차로 이동하는 형들도 걱정 없는 게, 넉넉한 주차 시설과 전용 발렛파킹 서비스를 지원해서 주차 스트레스 없이 아주 쾌적하게 방문할 수 있어. 예약할 때 차량 소유 여부를 말씀해주시면 미리 주차 공간 확보해 드리는 건 기본 센스지.</p>
-    </div>
-
-    <div class="glass-box">
-      <h2>이용 프로세스 3단계</h2>
-      <p>1. <strong>실시간 유선 문의</strong>: 010-6279-0862 번호로 연락해서 방문 희망 시간과 총 인원수를 말씀해 주세요. 형들 취향에 딱 맞게 세팅해 드립니다.</p>
-      <p>2. <strong>맞춤형 가이드 제안</strong>: 담당 실장이 당일의 수질과 추천 패키지, 투명한 가격에 대해 정직하게 알려드립니다. 바가지는 1%도 용납 안 하니까 걱정마!</p>
-      <p>3. <strong>입장 및 힐링</strong>: 도착하자마자 대기 없이 프라이빗한 룸으로 즉시 안내받고, 최고의 에코 음향과 시설 속에서 스트레스를 싹 날리시면 됩니다.</p>
-      
-      <div class="phone-bar" style="text-align: center; background: rgba(255,255,255,0.02);">
-        📞 언제든 편하게 아래 직통 번호로 연락 줘! <br>
-        <a href="tel:010-6279-0862">010-6279-0862</a> (터치 시 통화)
-      </div>
-    </div>
-
-    <div class="glass-box">
-      <h2>자주 묻는 질문 (FAQ)</h2>
-      <div style="margin-bottom: 20px;">
-        <h4 style="color: var(--accent-neon); margin-bottom: 8px;">Q. 예약 없이 가도 이용할 수 있나요?</h4>
-        <p>A. 평일 이른 시간대에는 가능할 수도 있지만, 피크타임(금, 토 저녁 등)에는 대기 시간이 2~3시간씩 걸리거나 자리가 없을 수 있어. 소중한 형들의 골든타임을 아끼려면 출발 전에 010-6279-0862로 딱 1분만 시간 내서 예약 전화를 주는 걸 적극 추천해!</p>
-      </div>
-      <div>
-        <h4 style="color: var(--accent-neon); margin-bottom: 8px;">Q. 추가금이 붙는 황당한 경우가 있나요?</h4>
-        <p>A. 요즘 그런 구시대적 영업 하는 곳들 많은데, 우리는 100% 정찰제를 준수하고 있어. 사전에 예약 통화 시 말씀드린 코스 가격 그대로 진행되니까 추가금 눈탱이 맞을 걱정은 완전히 접어둬도 좋아.</p>
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <p><strong>홍대 코인노래방 찐후기 가이드 Portal</strong></p>
-    <p>주소: 서울특별시 홍대구 일대 | 연락처: 010-6279-0862</p>
-    <p>
-      <a href="index.html">홈</a> | 
-      <a href="about.html">상세정보</a>
-      | <a href="blog.html">블로그</a>
-    </p>
-    <p style="margin-top: 16px; opacity: 0.5;">&copy; 2026 홍대 코인노래방 Portal. All Rights Reserved. 본 사이트는 성인 전용 정보 포털입니다.</p>
-  </footer>
-
+        <!-- 분위기 & 감성 -->
+        <section>
+            <h2>🎭 분위기 & 감성</h2>
+            <p>홍대 코인노래방의 분위기는 크게 <strong>3가지 타입</strong>으로 나뉜다. 취향에 맞게 골라라.</p>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>🖤 얼터너티브</h3>
+                    <p>벽에 낙서 가득, 조명은 형광등, 좁지만 빈티지함. 혼코노 or 2인용으로 딱. 음악 좋아하는 사람들한테 인기.</p>
+                </div>
+                <div class="card">
+                    <h3>💜 감성파</h3>
+                    <p>별빛 조명, 쿠션 의자, 발향기 있음. 데이트용으로 나쁘지 않음. 근데 가격이 좀 쌤. 주말 예약 필수.</p>
+                </div>
+                <div class="card">
+                    <h3>🔥 파티존</h3>
+                    <p>대형 스크린, 서브우퍼, 무선 마이크 4개. 6인 이상 가면 찰떡. 코인보다 시간제가 이득인 경우 많음.</p>
+                </div>
+            </div>
+            <p
 </body>
 </html>
